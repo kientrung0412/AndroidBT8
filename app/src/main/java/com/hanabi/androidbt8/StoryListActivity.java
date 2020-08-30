@@ -46,8 +46,4 @@ public class StoryListActivity extends AppCompatActivity implements ComicAdapter
         startActivity(intent);
     }
 
-    @Override
-    public void onClickItem(Comic comic, int position) {
-
-    }
 }

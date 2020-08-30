@@ -90,8 +90,6 @@ public class ComicAdapter extends RecyclerView.Adapter<ComicAdapter.ComicHolder>
 
     public interface ComicItemListener {
         void onClickItem(Comic comic);
-
-        void onClickItem(Comic comic, int position);
     }
 
 }
